@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Banner styles */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Section styles */
+section {
+    padding: 2em 0;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 1em;
+}
+
+/* List group item styles */
+.list-group-item {
+    background: #f4f4f4;
+    margin-bottom: 0.5em;
+    border-radius: 8px;
+}
+
+/* Card styles for product categories */
+.card {
+    margin-bottom: 1em;
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Partner logos */
+.partner-logos img {
+    max-width: 100px;
+    margin: 0.5em;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Contact form styles */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1.5em;
+}
+
+.contact-form .btn {
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    .carousel-inner img {
+        max-height: 600px;
+    }
+}
